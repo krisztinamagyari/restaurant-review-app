@@ -179,7 +179,7 @@ nav h1 a {
   font-size: 11pt;
 }
 #restaurants-list li a {
-  background-color: orange;
+  background-color: #ee7600;
   border-bottom: 3px solid #eee;
   color: #fff;
   display: inline-block;
@@ -192,7 +192,6 @@ nav h1 a {
 }
 
 /* ====================== Restaurant Details ====================== */
-
 
 .inside #map-container {
   background: blue none repeat scroll 0 0;
@@ -276,7 +275,7 @@ nav h1 a {
   list-style-type: none;
   margin: 0 0 30px;
   overflow: hidden;
-  padding: 0 20px 20px;
+  padding: 20px;
   position: relative;
 }
 #reviews-list li p {
