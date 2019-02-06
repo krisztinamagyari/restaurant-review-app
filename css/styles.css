@@ -48,13 +48,14 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
   color: #aaa;
   font-size: 8pt;
   letter-spacing: 1px;
-  padding: 25px;
+  padding-top: 25px;
+	padding-bottom: 25px;
   text-align: center;
   text-transform: uppercase;
 }
 /* ====================== Navigation ====================== */
 nav {
-  width: 100%;
+  max-width: 100%;
 	padding: 20px;
   background-color: #252831;
   text-align:center;
@@ -108,7 +109,7 @@ nav h1 a {
 }
 /* ====================== Restaurant Filtering ====================== */
 .filter-options {
-  width: 100%;
+  max-width: 100%;
   background-color: #000;
   align-items: center;
 	padding: 10px 5px;
@@ -152,7 +153,6 @@ nav h1 a {
   min-height: 380px;
   padding: 10px 20px;
   text-align: center;
-  min-width: 270px;
 	max-width: 320px;
 }
 #restaurants-list .restaurant-img {
@@ -283,4 +283,12 @@ nav h1 a {
 #restaurant-hours td {
   color: #666;
 	font-size: 16px;
+}
+
+/* ====================== Media queries ====================== */
+
+@media only screen and (max-width: 470px) {
+	#restaurant-img {
+    width: 100%;
+  }
 }
